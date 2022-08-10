@@ -30,8 +30,9 @@ export default function Layout({ children, home }) {
           <>
             <Image
               priority
-              src="/../public/IMG_8697.JPG"
+              src="/image/IMG_8697.JPG"
               className={utilStyles.borderCircle}
+              quality={1}
               height={144}
               width={144}
               alt={name}
@@ -44,8 +45,9 @@ export default function Layout({ children, home }) {
               <a>
                 <Image
                   priority
-                  src="/../public/IMG_8697.JPG"
+                  src="/image/IMG_8697.JPG"
                   className={utilStyles.borderCircle}
+                  quality={1}
                   height={108}
                   width={108}
                   alt={name}
